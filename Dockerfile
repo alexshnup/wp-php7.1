@@ -7,7 +7,6 @@ RUN set -ex; \
 	apt-get install -y \
 		libjpeg-dev \
 		libpng12-dev \
-		php-zip \
 	; \
 	rm -rf /var/lib/apt/lists/*; \
 	\
